@@ -4,17 +4,17 @@ starttime=$(date +%s)
 
 # defaults; export these variables before executing this script
 : ${DOMAIN:="decentralized-supply.com"}
-: ${IP_ORDERER:="54.234.201.67"}
+: ${IP_ORDERER:="54.209.156.153"}
 : ${ORG1:="factory"}
 : ${ORG2:="ferrari"}
 : ${ORG3:="gm"}
 : ${ORG4:="rr"}
 : ${ORG5:="dealer"}
-: ${IP1:="54.86.191.160"}
-: ${IP2:="54.243.0.168"}
-: ${IP3:="54.211.142.174"}
-: ${IP4:="54.211.142.174"}
-: ${IP5:="54.211.142.174"}
+: ${IP1:="34.208.229.124"}
+: ${IP2:="13.59.231.233"}
+: ${IP3:="54.193.67.68"}
+: ${IP4:="18.220.37.226"}
+: ${IP5:="54.198.75.213"}
 
 WGET_OPTS="--verbose -N"
 CLI_TIMEOUT=10000
